@@ -1,59 +1,14 @@
 <!DOCTYPE html>
 <html>
+
     <head>
+
         <meta chart="UTF-8" /><!-- Define a codificação de caracteres da página como UTF-8, para garantir que acentos e caracteres especiais sejam exibidos corretamente -->
-        <title>Praticas de programção</title><!-- Define o título da aba do navegador -->
-
-        <style>
-            /*Caso eu queira que duas tag tenha os mesmos parametros nos atributos basta colocar a primira tag uma "," e a segunda, segue o exemplo abaixo*/
-            h1, h2{ 
-                color: red;
-                text-align: center;
-            }
-
-            h1{
-                text-transform: uppercase;
-            }
-
-            p{
-                text-align: justify;
-            }
-
-            header{
-                background-color: #cccccc;
-            }
-
-            main{
-                margin: auto 30%; /*automático pra cima e pra baixo e 20% para esquerda e direita, básicamente centraliza tudo que está na tag main*/
-            }
-
-            .destaque{
-                background-color: brown;
-                color: azure;
-                padding: 20px;
-                margin-bottom: 20px;
-            }
-
-            #img-logo{
-                width: 50px;
-            }
-
-            nav li{ /*aqui no caso usamos duas tags sem vírgula, isso quer dizer que toda li dentro do nav vai ter o estilo abaixo*/
-                display: inline;
-                margin-left: 20px;
-                color: brown;
-                font-weight: bold;
-                border: 2px solid brown;
-                padding: 5px;
-            }
-
-            nav{
-                float: right;
-            }
-
-        </style>
+        <title>Práticas de programação</title><!-- Define o título da aba do navegador -->
+        <link rel="stylesheet" href="css/style.css"> <!-- Aqui nós estamos dizendo para ele pegar o estilo que está na pasta css no arquivo style.css e coloca na página -->
 
     </head>
+
     <body>
 
         <header>
@@ -70,35 +25,35 @@
             </nav> <!-- Cria um menu de navegação com uma lista de itens: html, css, lógica de programação, e javascript -->
 
         </header>
-    <body>
         
-    <main>
-        <h1>Práticas de Programação</h1> <!-- Título principal da página -->
-        <P class="destaque">Bem vindos!</P> <!-- Parágrafo de boas-vindas -->
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate nobis optio perferendis saepe quae consectetur expedita, illum odit ab adipisci iste tempora eligendi repudiandae sit tempore dicta nihil magni?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto distinctio nulla, mollitia assumenda neque aut nihil recusandae nesciunt laudantium eius odit dolore dignissimos doloribus laborum laboriosam! Voluptate quaerat voluptatem sunt.</p>
-        
+        <main>
+            <h1>Práticas de Programação</h1> <!-- Título principal da página -->
+            <P class="destaque">Bem vindos!</P> <!-- Parágrafo de boas-vindas -->
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate nobis optio perferendis saepe quae consectetur expedita, illum odit ab adipisci iste tempora eligendi repudiandae sit tempore dicta nihil magni?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto distinctio nulla, mollitia assumenda neque aut nihil recusandae nesciunt laudantium eius odit dolore dignissimos doloribus laborum laboriosam! Voluptate quaerat voluptatem sunt.</p>
+            
 
-        <hr><!-- Insere uma linha horizontal na página -->
+            <hr><!-- Insere uma linha horizontal na página -->
 
-        <h2>Link</h2> <!-- Subtítulo para a seção de link -->
-        <p>
-            Clique <a target="_blank" href="http://google.com">aqui</a> para acessar o Google <!-- O elemento <a> cria um link clicável. O atributo target="_blank" faz com que o link seja aberto em uma nova aba -->
-        </p>
+            <h2>Link</h2> <!-- Subtítulo para a seção de link -->
+            <p>
+                Clique <a target="_blank" href="http://google.com">aqui</a> para acessar o Google <!-- O elemento <a> cria um link clicável. O atributo target="_blank" faz com que o link seja aberto em uma nova aba -->
+            </p>
 
-        <h2 class="destaque">Listas</h2> <!-- Subtítulo para a seção de listas -->
+            <h2 class="destaque">Listas</h2> <!-- Subtítulo para a seção de listas -->
 
-        <ol>
-            <li>html</li>
-            <li>css</li>
-            <li>lógica de programação</li>
-            <li>javascript</li>
-        </ol> <!-- Cria uma lista ordenada com os itens: html, css, lógica de programação, e javascript -->
+            <ol>
+                <li>html</li>
+                <li>css</li>
+                <li>lógica de programação</li>
+                <li>javascript</li>
+            </ol> <!-- Cria uma lista ordenada com os itens: html, css, lógica de programação, e javascript -->
+            
+        </main>
 
         <footer>
             <p>Todos os direitos reservados!</p> <!-- Texto de rodapé -->
         </footer>
-        
-    </main>
+
     </body>
 </html>

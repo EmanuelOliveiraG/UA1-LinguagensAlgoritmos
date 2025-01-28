@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(39, 0, 0);
+    color: white; /*nessa parte ele generaliza porque está dentro do body, logo todos os textos dentro de body vão ser brancos*/
+    margin: 0;
+}
+/*Caso eu queira que duas tag tenha os mesmos parametros nos atributos basta colocar a primira tag uma "," e a segunda, segue o exemplo abaixo*/
+h1, h2{ 
+    color: red;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+p{
+    text-align: justify;
+}
+
+header{
+    background-color: azure;
+    color: black;
+}
+
+main{
+    margin: auto 20%; /*automático pra cima e pra baixo e 20% para esquerda e direita, básicamente centraliza tudo que está na tag main*/
+}
+
+footer{
+    background-color: azure;
+    color: black;
+}
+
+.destaque{
+    background-color: brown;
+    color: azure;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#img-logo{
+    width: 50px;
+}
+
+nav li{ /*aqui no caso usamos duas tags sem vírgula, isso quer dizer que toda li dentro do nav vai ter o estilo abaixo*/
+    display: inline;
+    margin-left: 20px;
+    color: brown;
+    font-weight: bold;
+    border: 2px solid brown;
+    padding: 5px;
+}
+
+nav{
+    float: right;
+}
